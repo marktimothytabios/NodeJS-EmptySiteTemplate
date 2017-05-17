@@ -5,8 +5,12 @@
   "scripts": {
     "start": "node server"
   },  
-"license": "Apache",
-"engines": {
-    "node": "~0.10.0 || ~4.2.0"
-  }
+  "license": "Apache",
+  "engines": {
+      "node": "~0.10.0 || ~4.2.0"
+  },
+  "dependencies": {
+    "botbuilder": "^3.8.3",
+    "restify": "^4.3.0"
+  }  
 }
